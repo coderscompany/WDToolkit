@@ -1,0 +1,134 @@
+@import url('bootstrap.min.css');
+@import url('bootstrap-switch.min.css');
+@import url('jquery-ui.min.css');
+
+body html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+#before, #after,#decoded, #encoded, #binaryresult {
+    width: 100%;
+    height: 600px;
+}
+
+#first, #second {
+    width: 100%;
+    height: 290px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+#str, #strength {
+    display:none;
+}
+
+.row-2 {
+    margin-top:6px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.footer span {
+    margin-top: 6px;
+}
+
+hr {
+    border: 1px solid #337ab7;
+}
+
+
+
+.filehash:hover, .filehash:focus, .stringhash:hover, .stringhash:focus {
+    cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav>li>a.active {
+	color: red;
+}
+
+.hashbody {
+	overflow-y: auto;
+	max-height: 450px;
+	display: block;
+}
+
+thead, tbody tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td-algo {
+    width: 10%;
+}
+
+.td-hash {
+    width: 40%;
+}
+
+#str1, #str2, #str3, #str4, #str5, #strength1, #strength2, #strength3, #strength4, #strength5 {
+    display: none;
+}
+
+.addround {
+    font-size: 18px;
+}
+
+.toencoder-group, .sendtocreate {
+    display:none;
+}
+
+#encoded, #decoded, #plain, #salt, #hashvalue, #algo, #algorithm, #before, #after, #search, #replace, #binaryresult, #first, #second {
+    border: none;
+    background-color: #eff0f1;
+    border-radius: 8px;
+}
+
+.panel-primary {
+    border-radius: 0;
+}
+
+.panel-heading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+.panel-primary .panel-heading {
+    background-color: #3f3f3f;
+    border-color: #3f3f3f;
+}
+
+.panel-primary {
+    border: none;
+}
